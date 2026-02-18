@@ -1,11 +1,16 @@
 import Navbar from "./components/Navbar"
 import { Button } from "./components/ui/button"
-import heroImage from "../public/dashboard_mobile_baanner.svg"
+import heroImage from "../public/dashboard_mobile_baanner.png"
 
 function App() {
   return (
 
-    <main className="relative min-h-screen w-full overflow-x-hidden bg-linear-to-tl from-lime-500/100 via-white to-white">
+    <main 
+      className="relative min-h-screen w-full overflow-x-hidden"
+      style={{
+        background: "linear-gradient(135deg, #ffffff 50%, #CDF392 75%, #a1ee30 85%)"
+      }}
+    >
 
       <div className="absolute top-0 right-0 -z-10 h-[600px] w-[600px] bg-lime-100/50 blur-[120px] rounded-full" />
       
@@ -24,7 +29,7 @@ function App() {
             </p>
               
             <div className="flex flex-col sm:flex-row items-center gap-6 pt-4">
-              <Button className="rounded-full bg-goeat-primary h-12 px-8 text-base font-bold text-goeat-dark hover:bg-lime-500 shadow-lg shadow-lime-200 transition-transform hover:scale-105">
+              <Button className="rounded-full bg-goeat-primary h-12 px-8 text-base font-bold text-goeat-dark hover:border-2 hover:border-goeat-dark shadow-lg shadow-lime-200 transition-transform hover:scale-105">
                 Seja parceiro
               </Button>
               <a href="#" className="text-sm font-bold text-goeat-dark hover:underline transition-all">

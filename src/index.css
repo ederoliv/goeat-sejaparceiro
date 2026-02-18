@@ -25,17 +25,6 @@
   --radius-sm: calc(0.75rem - 4px);
 }
 
-@layer utilities {
-  .bg-goeat-gradient {
-    background-color: #ffffff;
-    background-image: radial-gradient(
-      ellipse at top right, 
-      rgba(163, 230, 53, 0.2) 0%, 
-      transparent 50%
-    );
-  }
-}
-
 /* Isso remove os estilos chatos do Vite que centralizam tudo e quebram o layout */
 @layer base {
   body {
