@@ -21,7 +21,7 @@ export default function Navbar() {
             <li key={item}>
               <a 
                 href={`#${item.toLowerCase().replace(" ", "-")}`} 
-                className="text-sm font-medium text-zinc-300 hover:text-white transition-colors"
+                className="text-sm font-medium text-white hover:text-lime-500 transition-colors"
               >
                 {item}
               </a>
@@ -29,7 +29,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Lado Direito: Botão CTA */}
         <Button 
           className="rounded-full bg-goeat-primary px-6 py-2 text-sm font-bold text-goeat-dark hover:bg-lime-500 hover:scale-105 transition-all"
         >
