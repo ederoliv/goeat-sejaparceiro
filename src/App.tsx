@@ -1,10 +1,12 @@
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 import { Button } from "./components/ui/button"
 import heroImage from "../public/dashboard_mobile_baanner.png"
 
 function App() {
   return (
-
+  
+  <>
     <main 
       className="relative min-h-screen w-full overflow-x-hidden"
       style={{
@@ -48,6 +50,8 @@ function App() {
         </div>  
       </div>
     </main>
+    <Footer />
+  </>
   )
 }
 
