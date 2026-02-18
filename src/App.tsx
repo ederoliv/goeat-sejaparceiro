@@ -1,10 +1,11 @@
-import { Button } from "./components/ui/button"
+import "./index.css"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
     <>
-    <Button variant="outline">Hello World</Button>
+    <Navbar />
     </>
   )
 }
