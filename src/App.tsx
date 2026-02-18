@@ -5,10 +5,7 @@ import heroImage from "../public/dashboard_mobile_baanner.svg"
 function App() {
   return (
 
-    <main className="relative min-h-screen w-full overflow-x-hidden bg-goeat-gradient"
-    style={{
-      background: "radial-gradient(circle at 90% 100%, #a1ee30 0%, rgba(255, 255, 255, 0.9) 50%, #ffffff 100%)"
-    }}>
+    <main className="relative min-h-screen w-full overflow-x-hidden bg-linear-to-tl from-lime-500/100 via-white to-white">
 
       <div className="absolute top-0 right-0 -z-10 h-[600px] w-[600px] bg-lime-100/50 blur-[120px] rounded-full" />
       
